@@ -1,7 +1,7 @@
 /**
  * @author WMXPY
  * @namespace ForTheKing_Structure
- * @description Save
+ * @description Structure
  */
 
 /* eslint-disable camelcase */
