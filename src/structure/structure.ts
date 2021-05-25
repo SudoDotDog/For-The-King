@@ -4,30 +4,14 @@
  * @description Structure
  */
 
+import { SaveStructureInstance } from "./instance";
+
 /* eslint-disable camelcase */
 export type SaveStructurePosition = {
 
     readonly x: number;
     readonly y: number;
     readonly z: number;
-};
-
-export type SaveStructureInstance = {
-
-    readonly $content: boolean;
-    readonly $type: "System.Boolean";
-} | {
-
-    readonly $content: number;
-    readonly $type: "System.Int32";
-} | {
-
-    readonly $content: number;
-    readonly $type: "System.Single";
-} | {
-
-    readonly $content: string;
-    readonly $type: "System.String";
 };
 
 export type SaveStructureGameInfo = {

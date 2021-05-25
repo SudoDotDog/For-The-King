@@ -31,4 +31,8 @@ export class ForTheKingSave {
 
         this._structure = structure;
     }
+
+    public get raw(): SaveStructure {
+        return this._structure;
+    }
 }
