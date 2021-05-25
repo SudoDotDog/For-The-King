@@ -22,6 +22,10 @@ export type SaveStructureInstance = {
     readonly $type: "System.Int32";
 } | {
 
+    readonly $content: number;
+    readonly $type: "System.Single";
+} | {
+
     readonly $content: string;
     readonly $type: "System.String";
 };
