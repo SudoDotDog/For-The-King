@@ -4,6 +4,12 @@
  * @description Instance
  */
 
+export type SaveStructureAnyInstance = {
+
+    readonly $content: any;
+    readonly $type: any;
+};
+
 export type SaveStructureBooleanInstance = {
 
     readonly $content: boolean;
