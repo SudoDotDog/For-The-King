@@ -1,10 +1,10 @@
 /**
  * @author WMXPY
  * @namespace ForTheKing_Structure
- * @description Structure
+ * @description State
  */
 
-import { SaveStructureInstance } from "./instance";
+import { SaveStructureInstance, SaveStructureIntegerInstance } from "./instance";
 
 /* eslint-disable camelcase */
 export type SaveStateCOWData = {
@@ -30,4 +30,6 @@ export type SaveStateCOWData = {
 
 export type SaveStateCSData = {
 
+    readonly m_AugmentedDamagePhysical: SaveStructureIntegerInstance;
+    readonly m_AugmentedDamageMagic: SaveStructureIntegerInstance;
 };
